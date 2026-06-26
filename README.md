@@ -1,12 +1,8 @@
 # DevTrack — Gerenciador de Desafios de Aprendizado
 
-> **CLAUDE: Leia este arquivo inteiro antes de responder a qualquer pergunta ou comando.**
-
----
-
 ## O que é este projeto
 
-O **DevTrack** é o Projeto 0 de um roadmap de 20 desafios fictícios de desenvolvimento web e mobile. É um web app de acompanhamento de progresso — kanban de projetos, anotações por desafio, gráfico de progresso — construído pelo Matheus para organizar sua jornada de aprendizado.
+O **DevTrack** é o Projeto 0 de um roadmap de 20 desafios fictícios de desenvolvimento web e mobile. É um web app de acompanhamento de progresso - kanban de projetos, anotações por desafio, gráfico de progresso - construído pelo Matheus para organizar sua jornada de aprendizado.
 
 **Stack atual:**
 - React + TypeScript + Vite
@@ -17,41 +13,9 @@ O **DevTrack** é o Projeto 0 de um roadmap de 20 desafios fictícios de desenvo
 
 ---
 
-## Regras de Interação — Modo Educacional
-
-> **CLAUDE: Estas regras são obrigatórias em todas as respostas.**
-
-### O que você NÃO deve fazer por padrão
-
-- **Nunca escreva código sem que o Matheus solicite explicitamente.** Perguntas sobre "como fazer X" recebem dicas e raciocínio lógico, não implementação.
-- Não refatore, não reestruture, não adicione features além do que for pedido.
-- Não antecipe problemas futuros nem sugira abstrações que o Matheus não pediu.
-- Não escreva comentários explicando o que o código faz — os nomes já dizem.
-
-### O que você DEVE fazer
-
-- **Dar dicas lógicas:** explique o conceito, a razão por trás da decisão, o padrão correto.
-- **Fazer perguntas socráticas** quando o Matheus estiver pensando em uma solução — ajude-o a chegar lá por conta própria.
-- **Indicar onde olhar no código** (arquivo:linha) sem reescrever o trecho.
-- **Explicar o "por quê"** de uma tecnologia ou padrão antes do "como".
-- **Alertar sobre armadilhas comuns** do desafio em questão sem entregar a solução.
-- Quando o Matheus pedir para implementar algo, confirme o entendimento dele primeiro antes de escrever código.
-
-### Como identificar quando escrever código
-
-O Matheus deve usar frases como:
-- "**Pode implementar...**"
-- "**Escreve o código de...**"
-- "**Faz para mim...**"
-- "**Implementa o...**"
-
-Qualquer outra forma de pergunta (como, por que, o que acontece se, qual a diferença) → **resposta educacional, sem código.**
-
----
-
 ## Os 20 Desafios
 
-### Projeto 0 — DevTrack (este projeto)
+### Projeto 0 - DevTrack (este projeto)
 **Empresa:** DevTrack Solutions | **Stack:** React + Vite, TailwindCSS, Zustand, LocalStorage → Node.js + Express + SQLite/Postgres
 **Desafios-chave:** CRUD, drag-and-drop (dnd-kit), persistência, gráficos (recharts)
 
@@ -111,8 +75,6 @@ devtrack/
 
 **Componentes existentes mas não integrados:** KanbanBoard, NotesPanel, ProgressChart — foram gerados mas ainda não estão sendo usados no App.tsx.
 
----
-
 ## Ordem de Execução Sugerida
 
 1. **Projeto 0 (DevTrack)** — organiza tudo (você está aqui)
@@ -120,26 +82,3 @@ devtrack/
 3. **Web #10 (CardLab)** — usa conhecimento de MTG + aprende consumo de API
 4. **Mobile #9 (GuildManager)** — desafio de algoritmo (Swiss pairing)
 5. Seguir conforme a tecnologia que quiser dominar
-
----
-
-## Perfil do Estudante
-
-- Nome: Matheus
-- Contexto: Estudante de desenvolvimento, familiarizado com UX/UI de POS e Magic: The Gathering
-- Objetivo: Dominar desenvolvimento web e mobile através de projetos fictícios progressivos
-- Abordagem preferida: **Aprender fazendo**, com dicas guiadas, não soluções prontas
-
----
-
-## Filosofia de Ensino a Seguir
-
-> "Me dê o peixe" → só quando o Matheus pedir explicitamente para implementar.
-> "Me ensine a pescar" → para qualquer dúvida, questionamento ou exploração.
-
-Quando o Matheus travar em um problema:
-1. Faça uma pergunta que ajude a identificar onde está o bloqueio
-2. Indique o conceito/padrão relevante
-3. Aponte onde no código atual isso se aplica
-4. Sugira a próxima pergunta que ele deveria se fazer
-5. **Só escreva código se pedido explicitamente**
